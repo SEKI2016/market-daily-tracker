@@ -1,0 +1,37 @@
+# macOS / Jupyter noise
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Runtime caches and generated reports
+.mplconfig_daily_tracker/
+.mplconfig_global_daily_tracker/
+data_cache_daily_tracker/
+data_cache_global_daily_tracker/
+data_cache_weekly_tracker/
+output_daily_tracker/
+output_global_daily_tracker/
+output_global_daily_tracker_fix_test/
+output_global_daily_tracker_tests*/
+output_global_weekly_tracker/
+output_us_weekly_tracker/
+output_weekly_tracker/
+output_weekly_tracker_us/
+daily_invest_analysis_reports/
+daily_invest_analysis_runs/
+
+# Other local research projects kept in the same folder but not in this repo
+*.xlsx
+WeeklyTracker_*
+weekly_tracker_*
+global_*.ipynb
+sector_index_history/
+
+# Local environment and temporary files
+.env
+.venv/
+venv/
+tmp/
+temp/
+*.log
